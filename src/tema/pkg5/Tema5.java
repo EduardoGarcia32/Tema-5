@@ -18,16 +18,22 @@ public class Tema5 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Scanner sc = new Scanner (System.in);
+        /*Scanner sc = new Scanner (System.in);
         double ladoA, ladoB, hipotenusa;
         System.out.println("Ingrese valor del lado A");
         ladoA = sc.nextDouble();
         System.out.println("Ingrese valor del lado B");
         ladoB = sc.nextDouble();
         hipotenusa = CalcularHipotenusa(ladoA,ladoB);
-               
+        System.out.println("El valor d ela hipotenusa es"+ hipotenusa);*/
+        
+        computadora dell = new computadora();
+        System.out.println(dell.getValor());
+        computadora.ImprimeValor();
     }
     
-    public static doblue CalcularHipotenusa 
+    public static double CalcularHipotenusa(double ladoA, double ladoB){
+        return Math.sqrt(ladoA * ladoA + ladoB * ladoB);
+    }
     
 }

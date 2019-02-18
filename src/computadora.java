@@ -10,6 +10,7 @@
  */
 public class computadora {
     private int valor;
+    private static int contador;
 
     public int getValor() {
         return valor;
@@ -19,5 +20,7 @@ public class computadora {
         this.valor = valor;
     }
     
-    
+    public static void ImprimeValor(){
+        System.out.println(contador);
+    }
 }
